@@ -39,34 +39,20 @@ const createElement = (
 };
 
 export const initialValueBasic = [
-  createElement("🧱 Elements", { type: ELEMENT_H1 }),
-  createElement("🔥 Basic Elements", { type: ELEMENT_H2 }),
-  createElement("These are the most common elements, known as blocks:"),
-  createElement("Heading 1", { type: ELEMENT_H1 }),
-  createElement("Heading 2", { type: ELEMENT_H2 }),
-  createElement("Heading 3", { type: ELEMENT_H3 }),
-  createElement("Heading 4", { type: ELEMENT_H4 }),
-  createElement("Heading 5", { type: ELEMENT_H5 }),
-  createElement("Heading 6", { type: ELEMENT_H6 }),
-  createElement("Blockquote", { type: ELEMENT_BLOCKQUOTE }),
+  createElement("⚡️ Elements", { type: ELEMENT_H1 }),
   {
-    type: ELEMENT_CODE_BLOCK,
+    type: ELEMENT_PARAGRAPH,
     children: [
       {
-        type: ELEMENT_CODE_LINE,
-        children: [
-          {
-            text: "const a = 'Hello';"
-          }
-        ]
-      },
+        text: "You can experiment here, add a blockquote 👇"
+      }
+    ]
+  },
+  {
+    type: ELEMENT_PARAGRAPH,
+    children: [
       {
-        type: ELEMENT_CODE_LINE,
-        children: [
-          {
-            text: "const b = 'World';"
-          }
-        ]
+        text: ""
       }
     ]
   },

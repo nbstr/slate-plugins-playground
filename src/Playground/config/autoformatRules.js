@@ -19,7 +19,6 @@ import {
 } from "@udecode/slate-plugins";
 
 import {
-  ELEMENT_CODE_LINE,
   ELEMENT_CODE_BLOCK,
   insertCodeBlock
 } from "../../Lib/code-block/src";
@@ -28,9 +27,6 @@ import {
   ELEMENT_BLOCKQUOTE,
   insertBlockquote
 } from "../../Lib/block-quote-md/src";
-
-var slatePluginsCommon = require("@udecode/slate-plugins-common");
-var slatePluginsCore = require("@udecode/slate-plugins-core");
 
 const options = createSlatePluginsOptions();
 

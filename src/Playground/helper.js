@@ -2,20 +2,12 @@ import {
   ELEMENT_PARAGRAPH,
   ELEMENT_H1,
   ELEMENT_H2,
-  ELEMENT_H3,
-  ELEMENT_H4,
-  ELEMENT_H5,
-  ELEMENT_H6,
   MARK_BOLD,
   MARK_ITALIC,
   MARK_CODE,
   MARK_UNDERLINE,
   MARK_STRIKETHROUGH
 } from "@udecode/slate-plugins";
-
-import { ELEMENT_CODE_LINE, ELEMENT_CODE_BLOCK } from "../Lib/code-block/src";
-
-import { ELEMENT_BLOCKQUOTE } from "../Lib/block-quote-md/src";
 
 const createElement = (
   text = "",
